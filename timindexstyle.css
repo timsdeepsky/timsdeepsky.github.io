@@ -141,7 +141,7 @@ margin:  0px 0px 0px 0px;
 text-align: center;
 border-top: 1px solid #C0C0C0;
 background-repeat:repeat-x;
-background: url(images_timcline_org/header_image/footer_gradient_deep_blue.jpg);
+background: url(/images/footer_gradient_deep_blue.jpg);
 width: 100%;
 height: 110px;
 }
@@ -848,7 +848,7 @@ p.darkredtext
 
          .putlogohere
           {
-          background: url(images_timcline_org/newestlogo3.jpg);
+          background: url(/images/newestlogo3.jpg);
           background-repeat: no-repeat;
           width: 165px;
           height: 168px;
