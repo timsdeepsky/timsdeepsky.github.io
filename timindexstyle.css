@@ -1,0 +1,1525 @@
+body 
+{
+background: #000000;
+color: #999999;
+}
+
+
+
+
+ #greenborder  
+ { 
+ border-color: #700000;
+ border-style: solid;
+ border-width: 1px;
+ margin:0px 0px 0px 0px; 
+ padding:0px 0px 0px 0px;
+ }
+          
+ 
+ p.yellowlist
+	{
+	padding: 0px 0px 0px 0px;
+        margin: 0px 0px 0px 0px;
+        font-weight: 900;
+	color: #CCFF00;
+	}
+
+p.redlist
+	{
+	padding: 0px 0px 0px 0px;
+        margin: 0px 0px 0px 0px;
+        font-weight: 900;
+	color: #CCFF00;
+	}
+p.bluelist
+	{
+	padding: 0px 0px 0px 0px;
+        margin: 0px 0px 0px 0px;
+        font-weight: 900;
+	color: #CCFF00;
+	}
+p.whitelist
+	{
+	padding: 0px 0px 0px 0px;
+        margin: 0px 0px 0px 0px;
+        font-weight: 900;
+	color: #CCFF00;
+	}
+p.greenlist
+	{
+	padding: 0px 0px 0px 0px;
+        margin: 0px 0px 0px 0px;
+        font-weight: 900;
+	color: #CCFF00;
+	}
+p.pinklist
+	{
+	padding: 0px 0px 0px 0px;
+        margin: 0px 0px 0px 0px;
+        font-weight: 900;
+	color: #CCFF00;
+	}
+
+
+
+
+
+
+.centerheaderbox 
+{
+text-align: center;
+width: 100%;
+height: 130px;
+
+
+
+background-repeat:repeat-x;
+background: url(images_timcline_org/header_image/header_2.jpg);
+
+color: #ffffff;
+padding: 0px 0px 0px 0px;
+margin-top: 0px;
+}
+
+
+
+.colorblue
+{
+ color: #00008B;
+ margin:0px 0px 0px 0px; 
+ padding:0px 0px 0px 0px;
+
+ }
+
+.colorred
+{
+ color: #800000;
+ margin:0px 0px 0px 0px; 
+ padding:0px 0px 0px 0px;
+
+ }
+
+
+.coloryellow
+{
+ color: #EEE8AA;
+ margin:0px 0px 0px 0px; 
+ padding:0px 0px 0px 0px;
+ }
+
+
+.colorgreen
+ {
+ color: #00FFFF;
+ margin:0px 0px 0px 0px; 
+ padding:0px 0px 0px 0px;
+ }
+
+
+#header 
+{
+width: 100%;
+height: 130px;
+background: #000000;
+color: #FFF;
+padding-top: 0px;
+margin-top: 0px;
+border-bottom: 2px solid #800000; 
+
+}
+
+
+#footer 
+{
+clear: both;
+background: #000000;
+font-weight: 900;
+color: teal;
+padding: 0px 0px 0px 0px;
+margin:  0px 0px 0px 0px;
+text-align: center;
+border-top: 1px solid #C0C0C0;
+background-repeat:repeat-x;
+background: url(images_timcline_org/header_image/footer_gradient_deep_blue.jpg);
+width: 100%;
+height: 110px;
+}
+
+
+
+
+
+.longbox2 
+{
+margin:0 auto;
+max-width: 860px;
+text-align: center;
+font-size: 120%;
+height: 100%;
+background-color: #000000;
+border-color: #C0C0C0;
+border-style: solid;
+border-width: 1px;
+}
+
+
+.wrapper 
+{
+margin:0 auto;
+max-width: 860px;
+text-align: left;
+border-color: #C0C0C0;
+border-style: solid;
+border-width: 1px;
+height: 100%;
+background-color: #000000;
+}
+
+
+hr
+{
+ 
+color: #0002EC;
+width: 100%;
+padding: 0px 0px 0px 0px;
+margin: 0px 0px 0px 0px; 
+}
+               
+
+     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          .spacebox
+                {
+                float: left;
+                width: 15%;
+                height: 110px;
+	        padding: 0px 0px 0px 5px;
+	        margin-top: 0px;
+                
+                }
+
+       
+                
+
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+p.toplogostuff
+           
+{
+            font-size: 160%;
+            font-family: "Times New Roman", Times, serif;
+            font-weight: 900;
+
+            color: #99FFFF;
+            
+            
+            
+            
+            padding: 0px 0px 0px 0px;
+            margin: 0px 0px 0px 0px;
+            }
+
+p.toplogostufftwo
+            {
+            
+            color: #FFCC99;
+            font-size: 120%;
+            font-family: "Times New Roman", Times, serif;
+            font-weight: bold;
+            padding: 0px 0px 0px 0px;
+            margin: 0px 0px 0px 0px;
+            }
+
+
+
+
+
+p.darkredtext
+	{
+	padding: 0px 0px 0px 0px;
+        margin: 0px 0px 0px 0px;
+        font-weight: 900;
+	color: #000000;
+	}
+
+
+
+
+
+
+
+
+
+
+
+		/*starts for header work*/
+
+	#headerboxone {width: 18%;
+		float: left;
+		display: inline; 
+	
+		height: 82px;
+		}
+	
+	#headerimageone {width: 70%;
+		float: left;
+		display: inline;
+	
+		
+		}
+		
+		
+	.clear {clear: both;}	
+		
+		
+	 /*ends for header work*/
+		
+	h2, p {margin-top: 0;
+                color: #660000;           }
+	
+        h3 {
+         padding: 0px 0px 0px 0px;
+        margin: 0px 0px 0px 0px;
+        color: #00CCCC;
+
+         }
+
+
+        p.second
+	{
+	padding: 0px 0px 0px 0px;
+        margin: 0px 0px 0px 0px;
+        font-weight: 900;
+	color: #99CCCC;
+	}
+
+
+    
+
+
+
+
+
+
+
+        p.third
+	{
+	padding: 0px 0px 0px 0px;
+        margin: 0px 0px 0px 0px;
+	color: #99CCFF;
+        font-weight: 900;
+	}
+
+
+
+
+
+        p.four
+	{
+	margin-top: 0;
+	color: #CC6600;
+          font-weight: 900;
+	}
+
+
+        
+        p.five
+	{
+	padding: 0px 0px 0px 0px;
+        margin: 10px 0px 0px 7px;
+	color: #CC6600;
+        font-weight: 900;
+	}
+
+        p.seven
+	{
+	 padding: 0px 0px 0px 0px;
+        margin: 0px 0px 0px 0px;
+        color: #FF33FF;
+          font-weight: 900;
+	}
+
+
+
+
+
+        p.skyclockcolor
+	{
+	margin-top: 0;
+	color: #FF9900;
+        
+	}
+
+
+       
+
+        p.latitudeandlongitudecolor
+	{
+	  font-weight: 900;
+	color: #FF9900;
+        padding: 0px 0px 0px 0px;
+        margin: 0px 0px 0px 0px;
+	}
+
+         p.sunrisesunsetcolor
+	{
+	  font-weight: 900;
+	color: #990066;
+        padding: 0px 0px 0px 0px;
+        margin: 0px 0px 0px 0px;
+	}
+
+
+        p.astronomicalrisesetcolor
+	{
+ 
+        font-weight: 900;
+	margin-top: 0;
+	color: #33ff00;
+        padding: 0px 0px 0px 0px;
+        margin: 0px 0px 0px 0px;
+	}
+
+        p.nauticalrisesetcolor
+	{
+	margin-top: 0;
+	color: #ccff66;
+        padding: 0px 0px 0px 0px;
+        margin: 0px 0px 0px 0px;
+	}
+
+
+
+
+
+        p.civilsunsetcolor
+	{
+	margin-top: 0;
+	color: #006633;
+        padding: 0px 0px 0px 0px;
+        margin: 0px 0px 0px 0px;
+        
+	}
+
+
+        .civil
+        {
+        width: 100%;
+        height: auto;
+        border: 1px solid #006633;
+          font-weight: 900;
+        }
+
+
+
+
+        .sunrise
+        {
+        width: 100%;
+        height: auto;
+        border: 1px solid #990066;
+
+        }
+
+
+        .time
+        {
+        width: 100%;
+        height: auto;
+     
+        margin: 0px 0px 4px 0px;
+        padding: 0px 0px 4px 0px;
+        }
+        
+
+
+        .nautical
+        {
+        width: 100%;
+        height: auto;
+        border: 1px solid #ccff66;
+          font-weight: 900;
+        }
+
+
+       
+        
+
+        .latandlon
+        {
+        width: 100%;
+        height: auto;
+        
+        }
+
+
+        .astronomical
+        {
+        width: 100%;
+        height: auto;
+        border: 1px solid #33ff00;
+        font-weight: 900;
+        }
+       
+
+        p.timecolor
+	{
+	margin: 0px 0px 0px 0px;
+	color: #FF9900;
+        padding: 0px 0px 0px 0px;
+          font-weight: 900;
+	}
+
+	
+	h3.second
+	{
+	margin-top: 0;
+	color: #9999CC;
+        padding: 0px 0px 0px 0px;
+	}
+	
+	.boxbackground
+	{
+	background-color: #99FF99;
+	padding: 2px 2px 2px 2px;
+        width: 256px;
+        height: auto;
+        margin-left: 0px;
+	}
+	
+
+        .locationbigbox
+        {
+        width: 100%;
+        height: auto;
+        margin: 0px 0px 4px 0px;
+        padding: 0px 0px 4px 0px;
+
+
+        }
+
+
+        .locationbigboxtwo
+        {
+        width: 100%;
+        height: auto;
+        
+ 
+
+
+        }
+
+
+
+
+        .myimage
+        {
+         
+         padding: 0px 3px 0px 0px;
+         margin: 0px 0px 0px 0px;
+         background: url(images_timcline_org/me_68.jpg);
+         background-repeat: no-repeat;
+         width: 114px;
+         height: 141px;
+	 float: left;
+              
+         }
+
+
+
+
+        .springleaf
+        {
+         
+         padding: 0px 0px 0px 0px;
+         margin: 0px 0px 0px 0px;
+         background: url(images_timcline_org/fall_leaf.jpg);
+         background-repeat: no-repeat;
+         width: 94px;
+         height: 38px;
+	 float: left;
+              
+         }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        .navymoon
+        {
+         
+         padding: 0px 0px 0px 0px;
+         margin: 0px 0px 0px 0px;
+         background: url(http://tycho.usno.navy.mil/cgi-bin/phase.gif);
+         background-repeat: no-repeat;
+         width: 100px;
+         height: 100px;
+	 float: left;
+
+
+ 
+         
+              
+         }
+
+
+        .mainboxnavymoon
+        {
+         
+        padding: 0px 0px 4px 0px;
+        margin: 0px 0px 4px 0px;
+        width: 100%;
+        height: auto;
+	float: left;
+     
+
+         }
+        
+      
+
+
+
+
+
+
+
+
+
+
+
+
+        .rawweather
+        {
+         
+     
+        width: 100%;
+        height: auto;
+	float: left;
+        padding: 0px 0px 0px 0px;
+        margin: 0px 0px 0px 0px;
+
+         }
+
+ 
+       
+             
+
+
+
+
+
+
+
+
+	.clusterone
+        {
+         padding: 0px 0px 0px 0px;
+         margin: 0px 0px 0px 0px;
+         width: 100%;
+         height: auto;
+	 float: left;     
+       
+        
+      
+        
+        
+        }
+
+
+
+        
+	
+
+
+
+
+        .clusterbig
+        {
+        
+        height: 40px;
+        float: left;
+        width: 100%;
+        }
+
+
+
+
+
+
+
+
+
+	.clustertwo
+        {
+        
+        height: 31px;
+        float: left;
+        width: 88px;
+        padding: 0px 0px 0px 0px;
+        margin: 0px 0px 0px 0px;
+        background: url(images/valid-xhtml10-blue.png);
+        background-repeat: no-repeat;
+       
+        }
+
+       .clusterthree
+       {
+        
+        height: 31px;
+        float: left;
+        width: 88px;
+        padding: 0px 0px 0px 0px;
+        margin: 0px 0px 0px 0px;
+        background: url(images/vcss.gif);
+        background-repeat: no-repeat;
+       
+        }
+
+
+
+
+
+
+
+	
+	
+
+
+
+
+        .clusterflagbig
+        {
+        width: 100%;
+        float: left;
+        border-bottom-color: Fuchsia;
+        border-bottom: 3px;
+        border-bottom-style: outset;
+        padding: 0px 0px 4px 0px;
+        margin: 0px 0px 4px 0px;
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        .clusterflagtwo
+        {
+
+        width: 40px;
+        height: 30px;
+        float: left;
+        padding: 0px 3px 0px 0px;
+        margin: 0px 0px 0px 0px;
+        background: url(images/siteflag.jpg);
+        background-repeat: no-repeat;
+        width: 40px;
+        height: 30px;
+	float: left;
+
+         
+         
+        
+        }
+
+
+
+
+
+
+
+        
+
+
+         p.flag
+	{
+        
+	margin: 0px 0px 0px 0px;
+	color: #CCff33;
+        padding: 0px 0px 0px 0px;
+          font-weight: 900;
+	}
+
+
+
+
+
+
+        p.four
+	{
+	margin-top: 0;
+	color: #CC6600;
+        
+	}
+
+
+
+
+
+
+	#container {background-color: #000000; }
+	#container2 {background-color: #000000; }
+
+	
+	#content  {width: 25%;
+		float: left;
+		margin: 1em 3%;
+		display: inline;
+                background-color:#000000;
+                }
+          
+          
+       
+
+	#news {width: 29%;
+		float: left;
+		margin: 1em 3%;
+               clear: right;
+              
+             }
+
+	#nav { width: 28%;
+		float: left;
+		margin: 1em 0 1em 3%;
+              clear: right;
+
+              }
+
+
+
+
+
+
+
+
+
+
+
+
+         .putlogohere
+          {
+          background: url(images_timcline_org/newestlogo3.jpg);
+          background-repeat: no-repeat;
+          width: 165px;
+          height: 168px;
+          padding: 0px 0px 0px 0px;
+          margin: 0px 0px 0px 0px;
+          }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        ul#navigationskyclock
+        {
+	margin-left: 0;
+	padding-left: 0;
+	font-style: italic;
+	list-style-type: none;
+        }
+      
+        ul#navigationskyclock a		  
+        {
+	color: #00FFFF;  /*this is color of text in grid*/
+	text-decoration: none;
+	background-color: #008B8B;
+	padding: 0px 0px 0px 0px;
+	margin: 0px 0px 0px 2px;
+	width: 178px;
+	border-bottom: 1px solid #00FF7F ;
+	display: block;
+        }  
+  
+
+        ul#navigationskyclock a:hover
+        {
+	background: #0099FF;
+	color: #800080;
+        }
+
+
+
+
+
+
+
+
+	
+
+        ul#navigation
+        {
+	margin-left: 0;
+	padding-left: 0;
+	font-style: italic;
+	list-style-type: none;
+        font-weight: 900;
+        }
+      
+        ul#navigation a		  
+        {
+	color: #66CC00;  /*this is color of text in grid*/
+	text-decoration: none;
+	background-color: #505050;
+	padding: 0px 0px 0px 4px;
+	margin: 0px 0px 0px 2px;
+	width: 167px;
+	border-width: 3px;
+        border-style: outset;
+        border-color: #B0B0B0 #686868 #000066 #D0D0D0;
+	display: block;
+}  
+ul#navigation a:hover
+{
+	background: #606060;
+	color: #FFFFFF;
+}
+
+
+
+
+
+
+
+
+
+
+
+ul#navigationgallery
+  {
+	margin-left: 0;
+	padding-left: 0;
+	font-style: italic;
+	list-style-type: none;
+        font-weight: 900;
+       
+  }
+      
+  ul#navigationgallery a		  
+  {
+	color: #00FFFF;  /*this is color of text in grid*/
+	text-decoration: none;
+	background-color: #0066CC;
+	padding: 0px 0px 0px 4px;
+	margin: 0px 0px 0px 2px;
+	width: 167px;
+	
+        border-width: 3px;
+        border-style: outset;
+        border-color: #3399FF #330099 #000066 #33CCFF;
+	display: block;
+}  
+  
+
+  ul#navigationgallery a:hover
+  {
+	background: #0099FF;
+	color: #99CCFF;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+ul.navigationgallery
+  {
+	margin-left: 0;
+	padding-left: 0;
+	font-style: italic;
+	list-style-type: none;
+font-weight: 900;
+  }
+      
+  ul.navigationgallery a		  
+  {
+	color: #00FFFF;  /*this is color of text in grid*/
+	text-decoration: none;
+	background-color: #0066CC;
+	padding: 0px 0px 0px 0px;
+	margin: 0px 0px 0px 2px;
+	width: 178px;
+	border-bottom: 1px solid #00FF7F ;
+	display: block;
+}  
+  
+
+  ul.navigationgallery a:hover
+  {
+	background: #0099FF;
+	color: #800080;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+ul#navigationnonspace
+  {
+	margin-left: 0;
+	padding-left: 0;
+	font-style: italic;
+	list-style-type: none;
+font-weight: 900;
+  }
+      
+  ul#navigationnonspace a		  
+  {
+	color: #F00000;  /*this is color of text in grid*/
+	text-decoration: none;
+	background-color: #400000;
+	padding: 0px 0px 0px 4px;
+	margin: 0px 0px 0px 2px;
+	width: 167px;
+	border-width: 3px;
+        border-style: outset;
+        border-color: #FF66FF #990033 #660033 #FF99FF;
+	display: block;
+}  
+  
+
+  ul#navigationnonspace a:hover
+  {
+	background: #600000;
+	color: #9966FF;
+}
+
+
+
+
+
+/*this begins for background links*/
+
+
+
+	
+
+  ul#navigationbackgrounds
+  {
+	margin-left: 0;
+	padding-left: 0;
+	font-style: italic;
+	list-style-type: none;
+  }
+      
+  ul#navigationbackgrounds a		  
+  {
+	color: #00FFFF;  /*this is color of text in grid*/
+	text-decoration: none;
+	background-color: #6666CC;
+	padding: 0px 0px 0px 0px;
+	margin: 0px 0px 0px 2px;
+	width: 167px;
+	border-bottom: 1px solid #00FF7F ;
+	display: block;
+}  
+  
+
+  ul#navigationbackgrounds a:hover
+  {
+	background: #0099FF;
+	color: #800080;
+}
+
+
+
+
+
+
+.clear
+{
+clear: right;
+}
+
+
+
+ p.hotlinkcolor
+	{
+	margin-top: 0;
+	color: teal;
+        
+	}
+
+.zero
+ {
+ margin:0px 0px 0px 0px; 
+ padding:0px 0px 0px 0px;
+
+ }
+
+
+
+
+
+
+
+
+.linkbox
+{
+
+ margin:0px 0px 0px 0px; 
+ padding:0px 0px 0px 0px;
+
+ }
+
+
+
+ 
+
+
+  ul#navigation_links_2 a		  
+  {
+	color: #66CC00;  /*this is color of text in grid*/
+	text-decoration: none;
+
+	padding: 0px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
+	width: auto;
+        height:auto; 
+	display: block;
+	} 
+
+ul#navigation_links_2 a:hover
+{
+background: #00008B;
+color: #9966FF;
+}
+
+ul#navigation_links_2
+{
+font-style: italic;
+margin-left: 0; 
+padding-left: 0;
+
+}
+
+ul#navigation_links_3
+{
+font-style: italic;
+margin-left: 0; 
+padding-left: 0;
+
+}
+      
+  ul#navigation_links_3 a		  
+  {
+	color: #66CC00;  /*this is color of text in grid*/
+	text-decoration: none;
+
+	padding: 0px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
+	width: auto;
+        height:auto; 
+	display: block;
+	} 
+ 
+ul#navigation_links_3 a:hover
+{
+background: #800000;
+color: #9966FF;
+}
+
+
+
+
+ul#navigation_links_me a		  
+{
+color: #FF69B4;  /*this is color of text in grid*/
+text-decoration: none;
+padding: 0px 0px 0px 0px;
+margin: 0px 0px 0px 0px;
+width: auto;
+height:auto; 
+display: block;
+} 
+
+ul#navigation_links_me a:hover
+{
+background: yellow;
+color: #FF69B4;
+padding: 0px 0px 0px 0px;
+margin: 0px 0px 0px 0px;
+}
+
+ul#navigation_links_me
+{
+font-style: italic;
+margin-left: 0; 
+padding-left: 0;
+color: #FF69B4;
+padding: 0px 0px 0px 0px;
+margin: 0px 0px 0px 0px;
+}
+
+
+
+
+
+
+
+
+
+
+ul#navigation_links_dso a		  
+{
+color: #66CC00;  /*this is color of text in grid*/
+text-decoration: none;
+padding: 0px 0px 0px 0px;
+margin: 0px 0px 0px 0px;
+width: auto;
+height:auto; 
+display: block;
+} 
+
+
+ul#navigation_links_dso a:hover
+{
+background: yellow;
+color: #66CC00;
+padding: 0px 0px 0px 0px;
+margin: 0px 0px 0px 0px;
+}
+
+ul#navigation_links_dso
+{
+font-style: italic;
+margin-left: 0; 
+padding-left: 0;
+color: #66CC00;
+padding: 0px 0px 0px 0px;
+margin: 0px 0px 0px 0px;
+}
+
+
+
+ul#navigation_links_major a		  
+{
+color: #FF8C00;  /*this is color of text in grid*/
+text-decoration: none;
+padding: 0px 0px 0px 0px;
+margin: 0px 0px 0px 0px;
+width: auto;
+height:auto; 
+display: block;
+} 
+
+ul#navigation_links_major a:hover
+{
+background: yellow;
+color: #FF8C00;
+padding: 0px 0px 0px 0px;
+margin: 0px 0px 0px 0px;
+}
+
+ul#navigation_links_major
+{
+font-style: italic;
+margin-left: 0; 
+padding-left: 0;
+color: #FF8C00;
+padding: 0px 0px 0px 0px;
+margin: 0px 0px 0px 0px;
+}
+
+
+
+
+ul#navigation_links_yearly a		  
+{
+color: #FF0000;  /*this is color of text in grid*/
+text-decoration: none;
+padding: 0px 0px 0px 0px;
+margin: 0px 0px 0px 0px;
+width: auto;
+height:auto; 
+display: block;
+} 
+
+ul#navigation_links_yearly a:hover
+{
+background: yellow;
+color: #FF0000;
+padding: 0px 0px 0px 0px;
+margin: 0px 0px 0px 0px;
+}
+
+ul#navigation_links_yearly
+{
+font-style: italic;
+margin-left: 0; 
+padding-left: 0;
+color: #FF0000;
+padding: 0px 0px 0px 0px;
+margin: 0px 0px 0px 0px;
+}
+
+ul#navigation_links_showers a		  
+{
+color: #00FFFF;  /*this is color of text in grid*/
+text-decoration: none;
+padding: 0px 0px 0px 0px;
+margin: 0px 0px 0px 0px;
+width: auto;
+height:auto; 
+display: block;
+} 
+
+ul#navigation_links_showers a:hover
+{
+background: yellow;
+color: #00FFFF;
+padding: 0px 0px 0px 0px;
+margin: 0px 0px 0px 0px;
+}
+
+ul#navigation_links_showers
+{
+font-style: italic;
+margin-left: 0; 
+padding-left: 0;
+color: #00FFFF;
+padding: 0px 0px 0px 0px;
+margin: 0px 0px 0px 0px;
+}
+
+
+
+
+
+ul#navigation_links_meteor_video a		  
+{
+color: #FFFAFA;  /*this is color of text in grid*/
+text-decoration: none;
+padding: 0px 0px 0px 0px;
+margin: 0px 0px 0px 0px;
+width: auto;
+height:auto; 
+display: block;
+} 
+
+ul#navigation_links_meteor_video a:hover
+{
+background: yellow;
+color: #FFFAFA;
+padding: 0px 0px 0px 0px;
+margin: 0px 0px 0px 0px;
+}
+
+ul#navigation_links_meteor_video
+{
+font-style: italic;
+margin-left: 0; 
+padding-left: 0;
+color: #FFFAFA;
+padding: 0px 0px 0px 0px;
+margin: 0px 0px 0px 0px;
+}
+
+
+
+
+
+
+
+
+
+ul#navigation_links
+{
+font-style: italic;
+margin-left: 0; 
+padding-left: 0;
+}
+      
+ul#navigation_links a		  
+{
+color: #66CC00;  /*this is color of text in grid*/
+text-decoration: none;
+padding: 0px 0px 0px 0px;
+margin: 0px 0px 0px 0px;
+width: auto;
+height:auto; 
+display: block;
+} 
+ 
+ul#navigation_links a:hover
+{
+background: #00CED1;
+color: #9966FF;
+}
+
+
+
+ul#navigation_links7
+{
+font-style: italic;
+margin-left: 0; 
+padding-left: 0;
+}
+      
+ul#navigation_links7 a		  
+{
+color: #66CC00;  /*this is color of text in grid*/
+text-decoration: none;
+padding: 0px 0px 0px 0px;
+margin: 0px 0px 0px 0px;
+width: auto;
+height:auto; 
+display: block;
+} 
+ 
+ul#navigation_links7 a:hover
+{
+background: #336600;
+color: #9966FF;
+}
+
+
+ul#navigation_links8
+{
+font-style: italic;
+margin-left: 0; 
+padding-left: 0;
+}
+      
+ul#navigation_links8 a		  
+{
+color: #66CC00;  /*this is color of text in grid*/
+text-decoration: none;
+padding: 0px 0px 0px 0px;
+margin: 0px 0px 0px 0px;
+width: auto;
+height:auto; 
+display: block;
+} 
+ 
+ul#navigation_links8 a:hover
+{
+background: #CC6666;
+color: #C0C0C0;
+}
+
+
+ul#navigation_links_meteor_video_hotlink a		  
+{
+color: #FFFAFA;  /*this is color of text in grid*/
+text-decoration: none;
+padding: 0px 0px 0px 0px;
+margin: 0px 0px 0px 0px;
+width: auto;
+height:auto; 
+display: block;
+} 
+
+ul#navigation_links_meteor_video_hotlink a:hover
+{
+background: red;
+color: #FFFAFA;
+padding: 0px 0px 0px 0px;
+margin: 0px 0px 0px 0px;
+}
+
+ul#navigation_links_meteor_video_hotlink
+{
+font-style: italic;
+margin-left: 0; 
+padding-left: 0;
+color: #FFFAFA;
+padding: 0px 0px 0px 0px;
+margin: 0px 0px 0px 0px;
+}
+
+
+
+
+
+
+
