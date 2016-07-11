@@ -1,19 +1,11 @@
-<?php
-header('Content-type: text/html; charset=utf-8');
-?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
     "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="https://www.w3.org/1999/xhtml" xml:lang="en">
 
-     
-
-
-
  <head>
 
+<link href='/images/favicon.png' rel='icon' type='image/x-icon'/>    
 
-<link href='https://timcline.org/favicon.ico' rel='icon' type='image/x-icon'/>    
- 
  <title>FIREBALL 4-15-2016</title> 
 
    
@@ -96,7 +88,7 @@ border:1px solid red;
 
 <div class="wrapper">
 
-<?php include('link_include.php'); ?>
+<a href="https://timsdeepsky.github.io/index.html">Back to timcline.org</a>
 
 <h1> timcline.org</h1>
   <h2>Fireball 4-15-2016....</h2>
@@ -106,14 +98,14 @@ This was captured by my Fireball meteor cams....
 </p>
 
 
-<img src="https://timcline.org/images_timcline_org/meteors/timcline_fireball_4_15_2016.jpg" alt="meteor" width="640" height="480" />
+<img src="/images/timcline_fireball_4_15_2016.jpg" alt="meteor" width="640" height="480" />
 <br />
 <br />
 
   <p>Video of this event is below....</p>
 
  <video class="fireball_video" width="640" height="480" controls>
-  <source src="meteor_video_2016/timcline_fireball_4_15_2016.mp4" type="video/mp4">
+  <source src="/video/timcline_fireball_4_15_2016.mp4" type="video/mp4">
 Your browser does not support the video tag.
 </video> 
 
@@ -122,8 +114,9 @@ Your browser does not support the video tag.
 
 
 <div id="footer">
-<?php include('copyright.php'); ?>
-</div>
+Copyright &#169;-Tim Cline-timcline.org-Tim's Observatory-
+<br />
+-2000 through 2050-Linux-open source supporter.</div>
 
  </div>  
                                                                                                   
