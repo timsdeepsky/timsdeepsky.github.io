@@ -1,6 +1,3 @@
-<?php
-header('Content-type: text/html; charset=utf-8');
-?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
     "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="https://www.w3.org/1999/xhtml" xml:lang="en">
@@ -8,8 +5,8 @@ header('Content-type: text/html; charset=utf-8');
  <head>
 
 
-<link href='https://timcline.org/favicon.ico' rel='icon' type='image/x-icon'/>    
- 
+<link href='/images/favicon.png' rel='icon' type='image/x-icon'/>    
+
  <title>FIREBALL 11-4-2015</title> 
 
    
@@ -92,7 +89,7 @@ border:1px solid red;
 
 <div class="wrapper">
 
-<?php include('link_include.php'); ?>
+<a href="https://timsdeepsky.github.io/index.html">Back to timcline.org</a>
 
 <h1> timcline.org</h1>
   <h2>Fireball 11-4-2015....</h2>
@@ -101,21 +98,14 @@ The big Iowa fireball i captured on 11-4-2015....This was at 05:45am(my local ti
 This was captured by my Fireball meteor cams....
 </p>
 
-
-
-
-
-<img src="https://timcline.org/images_timcline_org/meteors/meteor_11_4_2015_5_45_AM.jpg" alt="meteor" width="640" height="480" />
+<img src="/images/meteor_11_4_2015_5_45_AM.jpg" alt="meteor" width="640" height="480" />
 <br />
 <br />
-
-
-
 
   <p>Video of this event is below....</p>
 
  <video class="fireball_video" width="640" height="480" controls>
-  <source src="meteor_video_2015/fireball_11_4_2015_05_45am.mp4" type="video/mp4">
+  <source src="/video/fireball_11_4_2015_05_45am.mp4" type="video/mp4">
 Your browser does not support the video tag.
 </video> 
 
@@ -124,7 +114,9 @@ Your browser does not support the video tag.
 
 
 <div id="footer">
-<?php include('copyright.php'); ?>
+Copyright &#169;-Tim Cline-timcline.org-Tim's Observatory-
+<br />
+-2000 through 2050-Linux-open source supporter.
 </div>
 
  </div>  
