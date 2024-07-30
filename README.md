@@ -1,2 +1,1 @@
-[timcline.org.
-](https://timsdeepsky.github.io)
+(https://timsdeepsky.github.io)
