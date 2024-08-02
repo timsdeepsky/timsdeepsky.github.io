@@ -80,8 +80,13 @@ img{
   height: 480px;
 }
 
+video {
+  /* override other styles to make responsive */
+  width: 100%    !important;
+  height: auto   !important;
+}
 
-  
+
 /* Footer */
 .footer {
   padding: 10px;
@@ -139,7 +144,18 @@ img{
     <img src="/images/fireball.6.14.2024.jpg" alt="Test">
   </div>
     
-  
+  <br>
+    
+    <h3>Video of the Fireball on 6-14-2024.</h3>
+
+
+ <video class="fireball_video" width="100%" controls>
+  <source src="/video/fireball.6.14.2024.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video> 
+
+
+    
 
   </div>
 </div>
