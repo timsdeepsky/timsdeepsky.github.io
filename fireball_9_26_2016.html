@@ -1,122 +1,187 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-    "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="https://www.w3.org/1999/xhtml" xml:lang="en">
 
- <head>
-
+<!DOCTYPE html>
+<html>
+<head>
 <link href='/images/favicon.png' rel='icon' type='image/x-icon'/>    
- 
- <title>FIREBALL 9-26-2016</title> 
+<title>Fireball 9-26-2016</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
 
-   
- <style type="text/css" media="screen">
-body
-{
-background-color:#000000;
+/* Style the body */
+body {
+  font-family: Arial;
+  margin: 0;
 }
-.wrapper {
-	margin:0 auto;
-	max-width: 860px;
-	text-align: center;
-       
-        height: 100%;
-border: 2px solid green;
-color: #000000;
-background-color: #000000;
+
+/* Header/logo Title */
+.header {
+  padding: 10px;
+  text-align: center;
+  background: #100000;
+  color: #00ffff;
+  border:2px solid #00ffff;
 }
-       #footer {clear: both;
-		background: #ffffff;
-                font-weight: 900;
-		color: Black;
-		padding: 0px 0px 0px 0px;
-                margin: 0px 0px 0px 0px;
-		text-align: center;
-                border: 1px solid green;
-                width: auto;
-                height: auto;
- 
-                }
-h1 {color:#66CDAA;text-align:center;}
-h2 {color:#DAA520;text-align:center;}
-p {color:#DAA520;text-align:center;padding: 0px 10px 0px 10px;
+
+/* Style the top navigation bar */
+.navbar {
+  display: flex;
+  background-color: #333;
 }
-a:link {color:#FF0000;}      /* unvisited link */
-a:visited {color:#00FF00;}  /* visited link */
-a:hover {color:#FF00FF;}  /* mouse over link */
-a:active {color:#0000FF;}  /* selected link */
-img {
-   padding:2px;
-   border:2px solid #BA55D3;
-   background-color:#008080;
+
+/* Style the navigation bar links */
+.navbar a {
+  color: white;
+  padding: 14px 20px;
+  text-decoration: none;
+  text-align: center;
 }
-  #playerMubAgxZtdIlb
-                {
-               
-		background: #000000;
-                font-weight: 900;
-		color: Black;
-		padding: 0px 0px 0px 0px;
-                margin-left: auto ;
-                margin-right: auto ;
-		text-align: center;
-                border: 1px solid green;
-                width: auto;
-                height: auto;
-                }
-.fireball_video
-{
-border:1px solid red;
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
 }
- </style>
+
+/* Column container */
+.row {  
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  flex: 30%;
+  background-color: #100000;
+  color: #00ffff;
+  padding: 20px;
+}
+
+/* Main column */
+.main {
+  flex: 70%;
+  background-color: #100000;
+  padding: 20px;
+}
+
+/* Fake image, just for this example */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+img{
+  max-width: 100%;
+  max-height: 100%;
+  border:2px solid #00ffff;
+}
+  
+.box.small{
+  height: 480px;
+  margin: 0px;
+}
+
+  
+video {
+  /* override other styles to make responsive */
+  max-width: 100%    !important;
+  height: auto   !important;
+  border:2px solid #00ffff;
+  margin: 0px;
+}
 
 
- </head>                      
-             
+/* Footer */
+.footer {
+  padding: 10px;
+  text-align: center;
+  background: #100000;
+  color: #00ffff;
+  border:2px solid #00ffff;
+}
 
+/* Text color 1 */
+.color.green {
+  color: #00ffff;
+  margin: 0px;
+}
+
+
+
+
+  
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row, .navbar {   
+    flex-direction: column;
+  }
+}
+</style>
+</head>
 <body>
 
-<div class="wrapper">
-<a href="https://timsdeepsky.github.io/index.html">Back to timcline.org</a>
-<h1> timcline.org</h1>
-  <h2>Fireball 9-26-2016....</h2>
-<p>
-The fireball i captured on 9-26-2016....
-This was captured by my Fireball meteor cams....
-</p>
 
 
-<img src="/images/fireball_9_26_2016_22_58_55.jpg" alt="meteor" width="640" height="480" />
-<br />
-<br />
+<!-- Header -->
+<div class="header">
+   <h1>Tim Cline Observatory.</h1>
+</div>
 
-  <h2>Video from my cams are below here........</h2>
+<!-- Navigation Bar -->
+<div class="navbar">
+  <a href="/index.html">Back home ?</a>
+</div>
 
- <video class="fireball_video" width="640" height="480" controls>
+<!-- The flexible grid (content) -->
+<div class="row">
+  <div class="side">
+   <h3></h3>
+  <h3></h3>
+  </div>
+
+
+
+  
+  <div class="main">
+
+<div class="color green">
+  <h3>Fireball capture on 9-26-2016.</h3>
+</div>
+
+  
+  <div class="box small">
+    <img src="/images/fireball_9_26_2016_22_58_55.jpg" alt="Fireball">
+  </div>
+
+  <br>
+
+  <div class="color green">
+    <h3>Video of the Fireball on 9-26-2016.</h3>
+  </div>
+
+
+  
+ <video class="fireball_video" controls>
   <source src="/video/fireball_9_26_2016_22_58_55.mp4" type="video/mp4">
 Your browser does not support the video tag.
 </video> 
 
-<br />
-	
-	
-	
-	
-	
-	
+    
 
-<div id="footer">
-Copyright &#169;-Tim Cline-timcline.org-Tim's Observatory-
-<br />
--2000 through 2050-Linux-open source supporter.
+  </div>
 </div>
 
- </div>  
-                                                                                                  
-</body>
+<!-- Footer -->
+<div class="footer">
+    <h5>Copyright ©-Tim Cline-Tim Cline Observatory
+    -2000 through 2100-Linux-open source supporter.</h5>
+</div>
 
+  
 
-                                                                                                          
 </body>
 </html>
-
-
