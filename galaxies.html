@@ -1,352 +1,199 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-"https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="https://www.w3.org/1999/xhtml" xml:lang="en">
-
+<!DOCTYPE html>
+<html>
 <head>
-
-
 <link href='/images/favicon.png' rel='icon' type='image/x-icon'/>    
+<title>Galaxies</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
 
-<title>Galaxies</title> 
-<style type="text/css" media="screen">
+/* Style the body */
+body {
+  font-family: Arial;
+  margin: 0;
+}
 
-body
-{
-background-color:#000000;
+/* Header/logo Title */
+.header {
+  padding: 10px;
+  text-align: center;
+  background: #100000;
+  color: #00ffff;
+  border:2px solid #00ffff;
+}
+
+/* Style the top navigation bar */
+.navbar {
+  display: flex;
+  background-color: #333;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  color: white;
+  padding: 14px 20px;
+  text-decoration: none;
+  text-align: center;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Column container */
+.row {  
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  flex: 30%;
+  background-color: #100000;
+  color: #00ffff;
+  padding: 20px;
+}
+
+/* Main column */
+.main {
+  flex: 70%;
+  background-color: #100000;
+  padding: 20px;
+}
+
+/* Fake image, just for this example */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+img{
+  max-width: 100%;
+  max-height: 100%;
+  border:2px solid #00ffff;
+}
+  
+.box.small{
+  height: 480px;
+  margin: 0px;
+}
+
+  
+video {
+  /* override other styles to make responsive */
+  max-width: 100%    !important;
+  height: auto   !important;
+  border:2px solid #00ffff;
+  margin: 0px;
 }
 
 
-.wrapper 
-{
-margin:0 auto;
-max-width: 800px;
-text-align: center;
-height: 100%;
-border: 2px solid green;
-color: #000000;
-background-color: #000000;
-}
- 
-#footer 
-{
-clear: both;
-background: #ffffff;
-font-weight: 900;
-color: Black;
-padding: 0px 0px 0px 0px;
-margin: 0px 0px 0px 0px;
-text-align: center;
-border: 1px solid green;
-width: auto;
-height: auto;
+/* Footer */
+.footer {
+  padding: 10px;
+  text-align: center;
+  background: #100000;
+  color: #00ffff;
+  border:2px solid #00ffff;
 }
 
-img {
-   padding:2px;
-   border:2px solid #BA55D3;
-   background-color:#008080;
+/* Text color 1 */
+.color.green {
+  color: #00ffff;
+  margin: 0px;
 }
 
-h1 {color:#66CDAA;text-align:center;}
-h2 {color:#DAA520;text-align:center;}
-p {color:#DAA520;text-align:center;}
-
-a:link {color:#FF0000;}      /* unvisited link */
-a:visited {color:#00FF00;}  /* visited link */
-a:hover {color:#FF00FF;}  /* mouse over link */
-a:active {color:#0000FF;}  /* selected link */
 
 
 
-
+  
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row, .navbar {   
+    flex-direction: column;
+  }
+}
 </style>
-
-</head>                      
-             
+</head>
 <body>
 
 
-<div class="wrapper">
 
-<a href="https://timsdeepsky.github.io/index.html">Back to timcline.org</a>
-<br />
-<h1> timcline.org</h1>
-<h2>Galaxies</h2>
-<p>Galaxy images i have taken from my Observatory....</p>
-
-<img src="/images/m31_galaxy_8_30_2008.jpg" alt="Andromeda" width="500" height="386" />
-<p>Andromeda Galaxy region</p>
-<br />
-<br />
-<img src="/images/andromeda_10_10_2008.jpg" alt="Andromeda" width="500" height="386" />
-<p>Andromeda Galaxy region</p>
-<br />
-<br />
-<img src="/images/ngc891_10_12_2013.jpg" alt="Galaxy" width="400" height="300" />
-<p>Spiral Galaxy NGC-891</p>
-<br />
-<br />
-<img src="/images/ngc891_10_12_2013_1.jpg" alt="Galaxy" width="400" height="300" />
-<p>Spiral Galaxy NGC-891</p>
-<br />
-<br />
-<img src="/images/caldwell12_6_29_2008.jpg" alt="Galaxy" width="400" height="400" />
-<p>Spiral Galaxy Caldwell 12</p>
-<br />
-<br />
-<img src="/images/four-in-leo.jpg" alt="Galaxy" width="400" height="250" />
-<p>Four Galaxies in Leo</p>
-<br />
-<br />
-<img src="/images/m-101-4-may-3-2008.jpg" alt="Galaxy" width="561" height="433" />
-<p>M-101 Pinwheel Galaxy</p>
-<br />
-<br />
-<img src="/images/m-101-tim-cline-big.jpg" alt="Galaxy" width="400" height="250" />
-<p>M-101 Pinwheel Galaxy</p>
-<br />
-<br />
-<img src="/images/M-104.jpg" alt="Galaxy" width="400" height="250" />
-<p>M-104 Sombrero Galaxy</p>
-<br />
-<br />
-<img src="/images/M_104_Sombrero_5_11_2007.jpg" alt="Galaxy" width="400" height="270" />
-<p>M-104 Sombrero Galaxy</p>
-<br />
-<br />
-<img src="/images/m-106-4-7-2007fullsize.jpg" alt="Galaxy" width="400" height="250" />
-<p>M-106 Spiral Galaxy</p>
-<br />
-<br />
-<img src="/images/m-106-jan-26-2007.jpg" alt="Galaxy" width="400" height="250" />
-<p>M-106 Spiral Galaxy</p>
-<br />
-<br />
-<img src="/images/m-106.jpg" alt="Galaxy" width="382" height="250" />
-<p>M-106 Spiral Galaxy</p>
-<br />
-<br />
-<img src="/images/m-108_3_3_march_3_08_fullsize.jpg" alt="Galaxy" width="400" height="250" />
-<p>M-108 Barred Spiral Galaxy</p>
-<br />
-<br />
-<img src="/images/m-109-4-7-2007fullsize.jpg" alt="Galaxy" width="400" height="250" />
-<p>M-109 Barred Spiral Galaxy</p>
-<br />
-<br />
-<img src="/images/Triangulum.jpg" alt="Galaxy" width="640" height="480" />
-<p>Triangulum Galaxy</p>
-<br />
-<br />
-<img src="/images/m-33_9-30-06.jpg" alt="Galaxy" width="400" height="250" />
-<p>M-33 Triangulum Galaxy</p>
-<br />
-<br />
-<img src="/images/m_33_oct_3_2008.jpg" alt="Galaxy" width="500" height="386" />
-<p>M-33 Triangulum Galaxy</p>
-<br />
-<br />
-<img src="/images/m-51-10_stack-may-3-2008.jpg" alt="Galaxy" width="561" height="433" />
-<p>M-51 Whirlpool Galaxy</p>
-<br />
-<br />
-<img src="/images/m-51_3_3_march_3_08_fullsize.jpg" alt="Galaxy" width="400" height="250" />
-<p>M-51 Whirlpool Galaxy</p>
-<br />
-<br />
-<img src="/images/m-51-4-7-2007fullsize.jpg" alt="Galaxy" width="400" height="250" />
-<p>M-51 Whirlpool Galaxy</p>
-<br />
-<br />
-<img src="/images/m-51_color_4_26_06.jpg" alt="Galaxy" width="400" height="250" />
-<p>M-51 Whirlpool Galaxy</p>
-<br />
-<br />
-<img src="/images/m-63-4-7-2007fullsize.jpg" alt="Galaxy" width="400" height="250" />
-<p>M-63 Sunflower Galaxy</p>
-<br />
-<br />
-<img src="/images/m-63_6_6_march_3_08_fullsize.jpg" alt="Galaxy" width="400" height="250" />
-<p>M-63 Sunflower Galaxy</p>
-<br />
-<br />
-<img src="/images/m_63_last_of_stack_of_twenty_one.jpg" alt="Galaxy" width="360" height="250" />
-<p>M-63 Sunflower Galaxy</p>
-<br />
-<br />
-<img src="/images/M-64_black_eye_may_11_2007.jpg" alt="Galaxy" width="400" height="250" />
-<p>M-64 Black Eye Galaxy</p>
-<br />
-<br />
-<img src="/images/M_64_color_4_26_06.jpg" alt="Galaxy" width="400" height="250" />
-<p>M-64 Black Eye Galaxy</p>
-<br />
-<br />
-<img src="/images/m-65_may_11_2007.jpg" alt="Galaxy" width="400" height="250" />
-<p>M-65 Spiral Galaxy</p>
-<br />
-<br />
-<img src="/images/m-66_and_m-65_may_11_2007.jpg" alt="Galaxy" width="400" height="250" />
-<p>M-65 and M-66 Spiral Galaxy</p>
-<br />
-<br />
-<img src="/images/m-66_may_11_2007.jpg" alt="Galaxy" width="400" height="250" />
-<p>M-66 Spiral Galaxy</p>
-<br />
-<br />
-<img src="/images/m-74-1-8-2008-40secstackof47-fullsize.jpg" alt="Galaxy" width="400" height="250" />
-<p>M-74 Face on Spiral Galaxy</p>
-<br />
-<br />
-<img src="/images/m-77-dec-23-2006.jpg" alt="Galaxy" width="400" height="250" />
-<p>M-77 Barred Spiral Galaxy</p>
-<br />
-<br />
-<img src="/images/m-81_1_2_2008_again.jpg" alt="Galaxy" width="400" height="250" />
-<p>M-81 Spiral Galaxy</p>
-<br />
-<br />
-<img src="/images/m-81-1-2-2008-tim-cline.jpg" alt="Galaxy" width="400" height="250" />
-<p>M-81 Spiral Galaxy</p>
-<br />
-<br />
-<img src="/images/m-81-4-7-2007fullsize.jpg" alt="Galaxy" width="400" height="250" />
-<p>M-81 Spiral Galaxy</p>
-<br />
-<br />
-<img src="/images/m_81_feb_four_zero_six.jpg" alt="Galaxy" width="378" height="237" />
-<p>M-81 Spiral Galaxy</p>
-<br />
-<br />
-<img src="/images/m_81_stack_of_161_tim_cline.jpg" alt="Galaxy" width="556" height="439" />
-<p>M-81 Spiral Galaxy</p>
-<br />
-<br />
-<img src="/images/m-82_3_3_march_3_08_fullsize.jpg" alt="Galaxy" width="400" height="250" />
-<p>M-82 Galaxy</p>
-<br />
-<br />
-<img src="/images/m-82-4-7-2007fullsize.jpg" alt="Galaxy" width="400" height="250" />
-<p>M-82 Galaxy</p>
-<br />
-<br />
-<img src="/images/m_82_lenticular_galaxy.jpg" alt="Galaxy" width="340" height="250" />
-<p>M-82 Galaxy</p>
-<br />
-<br />
-<img src="/images/m-87_6_6_march_3_2008_fullsize.jpg" alt="Galaxy" width="400" height="250" />
-<p>M-87 Supergiant elliptical Galaxy(brightest radio source in the sky)</p>
-<br />
-<br />
-<img src="/images/m_94_done.jpg" alt="Galaxy" width="400" height="250" />
-<p>M-94 Spiral Galaxy</p>
-<br />
-<br />
-<img src="/images/m_95_feb_four_zero_six.jpg" alt="Galaxy" width="400" height="250" />
-<p>M-95 Barred Spiral Galaxy</p>
-<br />
-<br />
-<img src="/images/ngc-1957-tim-cline-dec-25_2006.jpg" alt="Galaxy" width="400" height="250" />
-<p>NGC-1957 Galaxy</p>
-<br />
-<br />
-<img src="/images/ngc_3115_spindle.jpg" alt="Galaxy" width="400" height="250" />
-<p>NGC-3115 Spindle Galaxy</p>
-<br />
-<br />
-<img src="/images/ngc-3521-4-22-2007.jpg" alt="Galaxy" width="402" height="250" />
-<p>NGC-3521 Spiral Galaxy</p>
-<br />
-<br />
-<img src="/images/ngc_3628_may_11_2007.jpg" alt="Galaxy" width="400" height="250" />
-<p>NGC-3628 Edge on Spiral Galaxy</p>
-<br />
-<br />
-<img src="/images/NGC-3718-and-3729.jpg" alt="Galaxy" width="402" height="250" />
-<p>NGC-3718 and NGC-3729 Spiral Galaxies in Leo</p>
-<br />
-<br />
-<img src="/images/NGC-3718-and-UGC-6527-Seyfert-galaxy.jpg" alt="Galaxy" width="402" height="250" />
-<p>NGC-3718 and smaller Galaxies in Leo</p>
-<br />
-<br />
-<img src="/images/NGC-3718-anomoly.jpg" alt="Galaxy" width="402" height="250" />
-<p>NGC-3718 and NGC-3729 and something else went through the image while i was taking it</p>
-<br />
-<br />
-<img src="/images/ngc-4217-and-satellite-galaxy-4-7-2007fullsize.jpg" alt="Galaxy" width="400" height="250" />
-<p>NGC-4217 and satellite Galaxy</p>
-<br />
-<br />
-<img src="/images/ngc_4546_14minutes_of_exp_done_but_not_cut.jpg" alt="Galaxy" width="400" height="250" />
-<p>NGC-4565 edge on Galaxy in Coma Berenices</p>
-<br />
-<br />
-<img src="/images/ngc_4546_and_ngc_4494_14minutes_of_exp_done_but_not_cut.jpg" alt="Galaxy" width="400" height="250" />
-<p>NGC-4565 edge on Galaxy in Coma Berenices and companion</p>
-<br />
-<br />
-<img src="/images/ngc_463_and_satellite.jpg" alt="Galaxy" width="400" height="250" />
-<p>NGC-4631 Galaxy and satellite</p>
-<br />
-<br />
-<img src="/images/ngc-4725_6_22_2008.jpg" alt="Galaxy" width="561" height="433" />
-<p>NGC-4725 Galaxy</p>
-<br />
-<br />
-<img src="/images/ngc-4725.jpg" alt="Galaxy" width="400" height="250" />
-<p>NGC-4725 Galaxy</p>
-<br />
-<br />
-<img src="/images/ngc_5033_and_Cor_Caroli_the_Alpha_star.jpg" alt="Galaxy" width="400" height="250" />
-<p>NGC-5033 Galaxy and Cor Caroli Alpha star</p>
-<br />
-<br />
-<img src="/images/ngc-5907.jpg" alt="Galaxy" width="389" height="250" />
-<p>NGC-5907 Galaxy</p>
-<br />
-<br />
-<img src="/images/NGC.7331.jpg" alt="Galaxy" width="640" height="480" />
-<p>NGC-7331 Galaxy</p>
-<br />
-<br />
-<img src="/images/ngc-7331.jpg" alt="Galaxy" width="400" height="250" />
-<p>NGC-7331 Galaxy with other Galaxies in the background</p>
-<br />
-<br />
-<img src="/images/ngc_7479.jpg" alt="Galaxy" width="400" height="250" />
-<p>NGC-7479 Galaxy</p>
-<br />
-<br />
-<img src="/images/ngc-7814-dec29-2007-for-website-1.jpg" alt="Galaxy" width="400" height="250" />
-<p>NGC-7814 Galaxy</p>
-<br />
-<br />
-<img src="/images/ngc-891_oct_23_2006.jpg" alt="Galaxy" width="400" height="250" />
-<p>NGC-891 edge on Spiral Galaxy in Andromeda</p>
-<br />
-<br />
-<img src="/images/ngc-891_oct_3_2008.jpg" alt="Galaxy" width="500" height="386" />
-<p>NGC-891 edge on Spiral Galaxy in Andromeda</p>
-<br />
-<br />
-<img src="/images/sunflower_galaxy_may_11_2007.jpg" alt="Galaxy" width="400" height="250" />
-<p>M-63 Sunflower Galaxy</p>
-<br />
-<br />
-<img src="/images/m_101_may_11_2007.jpg" alt="Galaxy" width="400" height="250" />
-<p>M-101 Pinwheel Galaxy</p>
-<br />
-<br />
-
-
-
-<div id="footer">
-Copyright &#169;-Tim Cline-timcline.org-Tim's Observatory-
-<br />
--2000 through 2050-Linux-open source supporter.
+<!-- Header -->
+<div class="header">
+   <h1>Tim Cline Observatory.</h1>
+   <h1>Galaxies</h1>
 </div>
 
-</div>                                                                                                    
+<!-- Navigation Bar -->
+<div class="navbar">
+  <a href="/index.html">Back home ?</a>
+</div>
+
+<!-- The flexible grid (content) -->
+<div class="row">
+
+  <div class="side">
+   <h3></h3>
+  </div>
+
+
+ <div class="main">
+
+
+ <div class="color green">
+   <h3>Andromeda Galaxy region..</h3>
+ </div>
+
+  <div class="box small">
+    <img src="/images/andromeda_10_10_2008.jpg" alt="Galaxy">
+  </div>
+
+ <br>
+
+ <div class="color green">
+   <h3>Andromeda Galaxy region..</h3>
+ </div>
+
+  <div class="box small">
+    <img src="/images/m31_galaxy_8_30_2008.jpg" alt="Galaxy">
+  </div>
+
+ <br>
+
+ <div class="color green">
+   <h3>Spiral Galaxy NGC-891.</h3>
+ </div>
+
+  <div class="box small">
+    <img src="/images/fireball_12_26_2013.jpg" alt="Galaxy">
+  </div>
+
+ <br>
+
+
+
+
+
+  
+
+   
+  </div>
+  </div>
+
+<!-- Footer -->
+<div class="footer">
+    <h5>Copyright ©-Tim Cline-Tim Cline Observatory
+    -2000 through 2100-Linux-open source supporter.</h5>
+</div>
+
+  
+
 </body>
 </html>
