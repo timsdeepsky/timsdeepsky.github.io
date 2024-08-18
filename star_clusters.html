@@ -1,182 +1,403 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-"https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="https://www.w3.org/1999/xhtml" xml:lang="en">
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
+<link href='/images/favicon.png' rel='icon' type='image/x-icon'>    
+<title>Star Clusters</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+   box-sizing: border-box;
+}
 
+/* Style the body */
+body {
+  font-family: Arial;
+  margin: 0;
+}
 
-<link href='/images/favicon.png' rel='icon' type='image/x-icon'/>    
+/* Header/logo Title */
+.header {
+  padding: 10px;
+  text-align: center;
+  background: #100000;
+  color: #00ffff;
+  border:2px solid #00ffff;
+}
 
-<title>Star Clusters</title> 
-<style type="text/css" media="screen">
+/* Style the top navigation bar */
+.navbar {
+  display: flex;
+  background-color: #333;
+}
 
-body
-{
-background-color:#000000;
+/* Style the navigation bar links */
+.navbar a {
+  color: white;
+  padding: 14px 20px;
+  text-decoration: none;
+  text-align: center;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Column container */
+.row {  
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  flex: 30%;
+  background-color: #100000;
+  color: #00ffff;
+  padding: 20px;
+}
+
+/* Main column */
+.main {
+  flex: 70%;
+  background-color: #100000;
+  padding: 20px;
+}
+
+/* Fake image, just for this example */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+img{
+  max-width: 100%;
+  max-height: 100%;
+  border:2px solid #00ffff;
+  margin: 0px;
+  padding: 0px;
+}
+  
+.box.small{
+  height: 480px;
+  margin: 0px;
+  padding: 0px;
+}
+
+  
+video {
+  /* override other styles to make responsive */
+  max-width: 100%    !important;
+  height: auto   !important;
+  border:2px solid #00ffff;
+  margin: 0px;
 }
 
 
-.wrapper 
-{
-margin:0 auto;
-max-width: 800px;
-text-align: center;
-height: 100%;
-border: 2px solid green;
-color: #000000;
-background-color: #000000;
-}
- 
-#footer 
-{
-clear: both;
-background: #ffffff;
-font-weight: 900;
-color: Black;
-padding: 0px 0px 0px 0px;
-margin: 0px 0px 0px 0px;
-text-align: center;
-border: 1px solid green;
-width: auto;
-height: auto;
+/* Footer */
+.footer {
+  padding: 10px;
+  text-align: center;
+  background: #100000;
+  color: #00ffff;
+  border:2px solid #00ffff;
 }
 
-img {
-   padding:2px;
-   border:2px solid #BA55D3;
-   background-color:#008080;
+/* Text color 1 */
+.color.green {
+  color: #00ffff;
+  margin: 0px;
+  padding: 0px;
 }
 
-h1 {color:#66CDAA;text-align:center;}
-h2 {color:#DAA520;text-align:center;}
-p {color:#DAA520;text-align:center;}
-
-a:link {color:#FF0000;}      /* unvisited link */
-a:visited {color:#00FF00;}  /* visited link */
-a:hover {color:#FF00FF;}  /* mouse over link */
-a:active {color:#0000FF;}  /* selected link */
 
 
 
-
+  
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row, .navbar {   
+    flex-direction: column;
+  }
+}
 </style>
-
-</head>                      
-             
+</head>
 <body>
 
 
-<div class="wrapper">
 
-<a href="https://timsdeepsky.github.io/index.html">Back to timcline.org</a>
-<br />
-<h1> timcline.org</h1>
-<h2>Star Clusters</h2>
-<p>Star Cluster images i have taken from my Observatory....</p>
-
-<img src="/images/m15_star_cluster_tim_cline_9_2_2013.jpg" alt="Star Clusters" width="500" height="386" />
-<p>M-15 star cluster</p>
-<br />
-<br />
-<img src="/images/arcturus_may_11_2007.jpg" alt="Star Clusters" width="486" height="366" />
-<p>Star Arcturus</p>
-<br />
-<br />
-<img src="/images/capella.jpg" alt="Star Clusters" width="486" height="366" />
-<p>Star Capella</p>
-<br />
-<br />
-<img src="/images/focus_star_one.jpg" alt="Star Clusters" width="500" height="386" />
-<p>My focus Star</p>
-<br />
-<br />
-<img src="/images/m_13_1.jpg" alt="Star Clusters" width="486" height="366" />
-<p>Star Cluster M-13(hercules)</p>
-<br />
-<br />
-<img src="/images/m-13-22_stack-may-3-2008.jpg" alt="Star Clusters" width="561" height="433" />
-<p>Star Cluster M-13(hercules may-3-2008)</p>
-<br />
-<br />
-<img src="/images/m_13_hercules_on_may_11_2007.jpg" alt="Star Clusters" width="485" height="359" />
-<p>Star Cluster M-13(hercules may-11-2007)</p>
-<br />
-<br />
-<img src="/images/m_13_july_4_2008.jpg" alt="Star Clusters" width="519" height="400" />
-<p>Star Cluster M-13(hercules july-4-2008)</p>
-<br />
-<br />
-<img src="/images/m_15_oct_3_2008.jpg" alt="Star Clusters" width="500" height="386" />
-<p>Star Cluster M-15(oct-3-2008)</p>
-<br />
-<br />
-<img src="/images/m-31-4-7-2007fullsize.jpg" alt="Star Clusters" width="486" height="366" />
-<p>Star Cluster M-31</p>
-<br />
-<br />
-<img src="/images/m_3_1.jpg" alt="Star Clusters" width="486" height="366" />
-<p>Star Cluster M-3</p>
-<br />
-<br />
-<img src="/images/m_3_2.jpg" alt="Star Clusters" width="486" height="366" />
-<p>Star Cluster M-3</p>
-<br />
-<br />
-<img src="/images/m_37_1.jpg" alt="Star Clusters" width="486" height="366" />
-<p>Star Cluster M-37</p>
-<br />
-<br />
-<img src="/images/m_3_july_4_2008_done.jpg" alt="Star Clusters" width="400" height="400" />
-<p>Star Cluster M-3</p>
-<br />
-<br />
-<img src="/images/m_5_1.jpg" alt="Star Clusters" width="486" height="366" />
-<p>Star Cluster M-5</p>
-<br />
-<br />
-<img src="/images/m_53_7_7_2008.jpg" alt="Star Clusters" width="325" height="325" />
-<p>Star Cluster M-53</p>
-<br />
-<br />
-<img src="/images/m_5_7_7_2008.jpg" alt="Star Clusters" width="400" height="400" />
-<p>Star Cluster M-5</p>
-<br />
-<br />
-<img src="/images/m_92_1.jpg" alt="Star Clusters" width="486" height="366" />
-<p>Star Cluster M-92</p>
-<br />
-<br />
-<img src="/images/pollux_1.jpg" alt="Star Clusters" width="486" height="366" />
-<p>Star Pollux</p>
-<br />
-<br />
-<img src="/images/star_cluster_1.jpg" alt="Star Clusters" width="486" height="366" />
-<p>Open Cluster</p>
-<br />
-<br />
-<img src="/images/star_orion_region.jpg" alt="Star Clusters" width="486" height="366" />
-<p>Star in Orion region</p>
-<br />
-<br />
-<img src="/images/vega_1.jpg" alt="Star Clusters" width="486" height="366" />
-<p>Star Vega</p>
-<br />
-<br />
-<img src="/images/vega_7_7_2008.jpg" alt="Star Clusters" width="400" height="400" />
-<p>Star Vega</p>
-<br />
-<br />
-
-
-
-<div id="footer">
-Copyright &#169;-Tim Cline-timcline.org-Tim's Observatory-
-<br />
--2000 through 2050-Linux-open source supporter.
+<!-- Header -->
+<div class="header">
+   <h1>Tim Cline Observatory.</h1>
+   <h1>Star Clusters</h1>
 </div>
 
+<!-- Navigation Bar -->
+<div class="navbar">
+  <a href="/index.html">Back home ?</a>
+</div>
+
+<!-- The flexible grid (content) -->
+<div class="row">
+
+  <div class="side">
+   <h3>These are Star Cluster images i have taken from my small midwest observatory.</h3>
+  </div>
 
 
-</div>                                                                                                    
+ <div class="main">
+
+
+
+
+
+
+ <div class="color green">
+   <h3>M-15 star cluster.</h3>
+ </div>
+
+  <div class="box small">
+    <img src="/images/m15_star_cluster_tim_cline_9_2_2013.jpg" alt="Star Clusters">
+  </div>
+
+<br>
+
+<div class="color green">
+   <h3>Star Arcturus.</h3>
+ </div>
+
+  <div class="box small">
+    <img src="/images/arcturus_may_11_2007.jpg" alt="Star Clusters">
+  </div>
+
+ <br>
+
+<div class="color green">
+   <h3>Star Capella.</h3>
+ </div>
+
+  <div class="box small">
+    <img src="/images/capella.jpg" alt="Star Clusters">
+  </div>
+
+<br>
+
+ <div class="color green">
+   <h3>My focus Star.</h3>
+ </div>
+
+  <div class="box small">
+    <img src="/images/focus_star_one.jpg" alt="Star Clusters">
+  </div>
+
+
+<br>
+
+ <div class="color green">
+   <h3>Star Cluster M-13(hercules).</h3>
+ </div>
+
+  <div class="box small">
+    <img src="/images/m_13_1.jpg" alt="Star Clusters">
+  </div>
+
+<br>
+
+ <div class="color green">
+   <h3>Star Cluster M-13(hercules may-3-2008).</h3>
+ </div>
+
+  <div class="box small">
+    <img src="/images/m-13-22_stack-may-3-2008.jpg" alt="Star Clusters">
+  </div>
+
+<br>
+
+ <div class="color green">
+   <h3>Star Cluster M-13(hercules may-11-2007).</h3>
+ </div>
+
+  <div class="box small">
+    <img src="/images/m_13_hercules_on_may_11_2007.jpg" alt="Star Clusters">
+  </div>
+
+<br>
+
+ <div class="color green">
+   <h3>Star Cluster M-13(hercules july-4-2008).</h3>
+ </div>
+
+  <div class="box small">
+    <img src="/images/m_13_july_4_2008.jpg" alt="Star Clusters">
+  </div>
+
+<br>
+
+ <div class="color green">
+   <h3>Star Cluster M-15(oct-3-2008).</h3>
+ </div>
+
+  <div class="box small">
+    <img src="/images/m_15_oct_3_2008.jpg" alt="Star Clusters">
+  </div>
+
+<br>
+
+ <div class="color green">
+   <h3>Star Cluster M-31.</h3>
+ </div>
+
+  <div class="box small">
+    <img src="/images/m-31-4-7-2007fullsize.jpg" alt="Star Clusters">
+  </div>
+
+<br>
+
+ <div class="color green">
+   <h3>Star Cluster M-3.</h3>
+ </div>
+
+  <div class="box small">
+    <img src="/images/m_3_1.jpg" alt="Star Clusters">
+  </div>
+
+
+<br>
+
+ <div class="color green">
+   <h3>Star Cluster M-3.</h3>
+ </div>
+
+  <div class="box small">
+    <img src="/images/m_3_2.jpg" alt="Star Clusters">
+  </div>
+
+
+<br>
+
+ <div class="color green">
+   <h3>Star Cluster M-37.</h3>
+ </div>
+
+  <div class="box small">
+    <img src="/images/m_37_1.jpg" alt="Star Clusters">
+  </div>
+
+<br>
+
+ <div class="color green">
+   <h3>Star Cluster M-3.</h3>
+ </div>
+
+  <div class="box small">
+    <img src="/images/m_3_july_4_2008_done.jpg" alt="Star Clusters">
+  </div>
+
+<br>
+
+ <div class="color green">
+   <h3>Star Cluster M-5.</h3>
+ </div>
+
+  <div class="box small">
+    <img src="/images/m_5_1.jpg" alt="Star Clusters">
+  </div>
+
+<br>
+
+ <div class="color green">
+   <h3>Star Cluster M-53.</h3>
+ </div>
+
+  <div class="box small">
+    <img src="/images/m_53_7_7_2008.jpg" alt="Star Clusters">
+  </div>
+
+<br>
+
+ <div class="color green">
+   <h3>Star Cluster M-5.</h3>
+ </div>
+
+  <div class="box small">
+    <img src="/images/m_5_7_7_2008.jpg" alt="Star Clusters">
+  </div>
+
+<br>
+
+ <div class="color green">
+   <h3>Star Cluster M-92.</h3>
+ </div>
+
+  <div class="box small">
+    <img src="/images/m_92_1.jpg" alt="Star Clusters">
+  </div>
+
+<br>
+
+ <div class="color green">
+   <h3>Star Pollux.</h3>
+ </div>
+
+  <div class="box small">
+    <img src="/images/pollux_1.jpg" alt="Star Clusters">
+  </div>
+
+<br>
+
+ <div class="color green">
+   <h3>Open Cluster.</h3>
+ </div>
+
+  <div class="box small">
+    <img src="/images/star_cluster_1.jpg" alt="Star Clusters">
+  </div>
+
+<br>
+
+ <div class="color green">
+   <h3>Star in Orion region.</h3>
+ </div>
+
+  <div class="box small">
+    <img src="/images/star_orion_region.jpg" alt="Star Clusters">
+  </div>
+
+<br>
+
+ <div class="color green">
+   <h3>Star Vega.</h3>
+ </div>
+
+  <div class="box small">
+    <img src="/images/vega_1.jpg" alt="Star Clusters">
+  </div>
+
+<br>
+
+ <div class="color green">
+   <h3>Star Vega.</h3>
+ </div>
+
+  <div class="box small">
+    <img src="/images/vega_7_7_2008.jpg" alt="Star Clusters">
+  </div>
+
+
+
+
+  </div>
+  </div>
+
+<div class="footer">
+    <h5>Copyright ©-Tim Cline-Tim Cline Observatory
+    -2000 through 2100-Linux-open source supporter.</h5>
+</div>
+
+  
+
 </body>
 </html>
