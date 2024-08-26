@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Fireball 8-2-2024</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+  font-family: Arial;
+  margin: 0;
+}
+
+/* Header/logo Title */
+.header {
+  padding: 10px;
+  text-align: center;
+  background: #100000;
+  color: #00ffff;
+  border:2px solid #00ffff;
+}
+
+/* Style the top navigation bar */
+.navbar {
+  display: flex;
+  background-color: #333;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  color: white;
+  padding: 14px 20px;
+  text-decoration: none;
+  text-align: center;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Column container */
+.row {  
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  flex: 30%;
+  background-color: #100000;
+  color: #00ffff;
+  padding: 20px;
+}
+
+/* Main column */
+.main {
+  flex: 70%;
+  background-color: #100000;
+  padding: 20px;
+}
+
+/* Fake image, just for this example */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+img{
+  max-width: 100%;
+  max-height: 100%;
+  border:2px solid #00ffff;
+}
+  
+.box.small{
+  height: 480px;
+  margin: 0px;
+}
+
+  
+video {
+  /* override other styles to make responsive */
+  max-width: 100%    !important;
+  height: auto   !important;
+  border:2px solid #00ffff;
+  margin: 0px;
+}
+
+
+/* Footer */
+.footer {
+  padding: 10px;
+  text-align: center;
+  background: #100000;
+  color: #00ffff;
+  border:2px solid #00ffff;
+}
+
+/* Text color 1 */
+.color.green {
+  color: #00ffff;
+  margin: 0px;
+}
+
+
+
+
+  
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row, .navbar {   
+    flex-direction: column;
+  }
+}
+</style>
+</head>
+<body>
+
+
+
+<!-- Header -->
+<div class="header">
+   <h1>Tim Cline Observatory.</h1>
+</div>
+
+<!-- Navigation Bar -->
+<div class="navbar">
+  <a href="/index.html">Back home ?</a>
+</div>
+
+<!-- The flexible grid (content) -->
+<div class="row">
+  <div class="side">
+ 
+  </div>
+
+
+
+  
+  <div class="main">
+
+<div class="color green">
+  <h3>Fireball capture on 8-2-2024.</h3>
+</div>
+
+  
+  <div class="box small">
+    <img src="/images/Fireball.20240802.jpg" alt="Test">
+  </div>
+    
+  <br>
+
+  <div class="color green">
+    <h3>Video of the Fireball on 8-2-2024.</h3>
+  </div>
+
+
+  
+ <video class="fireball_video" controls>
+  <source src="/video/Fireball.20240802.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video> 
+  
+
+
+    
+
+  </div>
+</div>
+
+<!-- Footer -->
+<div class="footer">
+    <h5>Copyright ©-Tim Cline-Tim Cline Observatory
+    -2000 through 2100-Linux-open source supporter.</h5>
+</div>
+
+  
+
+</body>
+</html>
+
