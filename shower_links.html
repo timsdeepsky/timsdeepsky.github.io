@@ -1,157 +1,236 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-    "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="https://www.w3.org/1999/xhtml" xml:lang="en">
+<!DOCTYPE html>
+<html>
+<head>
+<title>Archives 1</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
 
- <head>
+/* Style the body */
+body {
+  font-family: Arial;
+  margin: 0;
+}
 
-<link href='/images/favicon.png' rel='icon' type='image/x-icon'/>    
+/* Header/logo Title */
+.header {
+  padding: 10px;
+  text-align: center;
+  background: #100000;
+  color: #00ffff;
+  border:2px solid #00ffff;
+}
 
- <title>Meteor showers</title> 
+/* Style the top navigation bar */
+.navbar {
+  display: flex;
+  background-color: #333;
+}
 
-   
- <style type="text/css" media="screen">
+/* Style the navigation bar links */
+.navbar a {
+  color: white;
+  padding: 14px 20px;
+  text-decoration: none;
+  text-align: center;
+}
 
-body
-{
-background-color:#000000;
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Column container */
+.row {  
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  flex: 30%;
+  background-color: #100000;
+  color: #00ffff;
+  padding: 20px;
+}
+
+/* Main column */
+.main {
+  flex: 70%;
+  background-color: #100000;
+  padding: 20px;
+}
+
+/* Fake image, just for this example */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+img{
+  max-width: 100%;
+  max-height: 100%;
+  border:2px solid #00ffff;
+}
+  
+.box.small{
+  height: 480px;
+  margin: 0px;
+}
+
+  
+video {
+  /* override other styles to make responsive */
+  max-width: 100%    !important;
+  height: auto   !important;
+  border:2px solid #00ffff;
+  margin: 0px;
+}
+
+
+/* Footer */
+.footer {
+  padding: 10px;
+  text-align: center;
+  background: #100000;
+  color: #00ffff;
+  border:2px solid #00ffff;
+}
+
+/* Text color 1 */
+.color.green {
+  color: #00ffff;
+  margin: 0px;
 }
 
 
 
-.wrapper {
-	margin:0 auto;
-	max-width: 860px;
-	text-align: center;
-       height: 100%;
-border: 2px solid green;
-color: #000000;
-background-color: #000000;
+
+  
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row, .navbar {   
+    flex-direction: column;
+  }
 }
-       #footer {clear: both;
-		background: #ffffff;
-                font-weight: 900;
-		color: Black;
-		padding: 0px 0px 0px 0px;
-                margin: 0px 0px 0px 0px;
-		text-align: center;
-                border: 1px solid green;
-             
- 
-                }
-h1 {color:#66CDAA;text-align:center;}
-h2 {color:#DAA520;text-align:center;}
-p {color:#DAA520;text-align:center;padding: 0px 10px 0px 10px;
-}
-
-
-a:link {color:#FF0000;}      /* unvisited link */
-a:visited {color:#00FF00;}  /* visited link */
-a:hover {color:#FF00FF;}  /* mouse over link */
-a:active {color:#0000FF;}  /* selected link */
-
-ul#navigation_links_showers a		  
-{
-color: #00FFFF;  /*this is color of text in grid*/
-text-decoration: none;
-padding: 0px 0px 0px 0px;
-margin: 0px 0px 0px 0px;
-display: block;
-
-} 
-
-ul#navigation_links_showers a:hover
-{
-background: red;
-color: #00FFFF;
-padding: 0px 0px 0px 0px;
-margin: 0px 0px 0px 0px;
-
-}
-
-ul#navigation_links_showers
-{
-font-style: italic;
-margin-left: 0; 
-padding-left: 0;
-color: #00FFFF;
-padding: 0px 0px 0px 0px;
-margin: 0px 0px 0px 20px;
-
-}
-
-
-
-
- </style>
-
-
-
-
- </head>                      
-             
-
+</style>
+</head>
 <body>
 
-<div class="wrapper">
-
-<a href="https://timsdeepsky.github.io/index.html">Back to timcline.org</a>
-
-<h1> timcline.org</h1>
-  <h2>Meteor showers....</h2>
-<p>
-Meteor showers my cameras have caught....
-</p>
-<img src="/images/south_taurids_shower_2016.jpg" alt="meteor" width="640" height="480" />
-<br />
-<br />
-<img src="/images/perseids_shower_2016.jpg" alt="meteor" width="640" height="480" />
-<br />
-<br />
-<img src="/images/south_taurids_2015.jpg" alt="meteor" width="640" height="480" />
-<br />
-<br />
-<img src="/images/perseids_2015_results.jpg" alt="meteor" width="640" height="480" />
-<br />
-<br />
-<img src="/images/final_perseid_2014_done.jpg" alt="meteor" width="640" height="480" />
-<br />
-<br />
-<img src="/images/final_lyrids_2012_web.jpg" alt="meteor" width="640" height="1200" />
-<br />
-<br />
-<img src="/images/geminids_dec_15_2011.jpg" alt="meteor" width="640" height="832" />
-<br />
-<br />
-<img src="/images/meteors_ending_11_19_2011016_lenoids_fireball_web.jpeg" alt="meteor" width="640" height="813" />
-<br />
-<br />
-<img src="/images/meteors_8_13_to_8_14_2011_web.jpg" alt="meteor" width="640" height="1200" />
-<br />
-<br />
-<img src="/images/meteors_8_12_to_8_13_2011_web.jpg" alt="meteor" width="640" height="1200" />
-<br />
-<br />
-<img src="/images/meteors_8_7_to_8_11_2011_web.jpg" alt="meteor" width="640" height="1200" />
-<br />
-<br />
 
 
-
-
-
-
-
-
-<div id="footer">
-Copyright &#169;-Tim Cline-timcline.org-Tim's Observatory-
-<br />
--2000 through 2050-Linux-open source supporter.
+<!-- Header -->
+<div class="header">
+   <h1>Tim Cline Observatory.</h1>
 </div>
 
- </div>  
-                                                                                                  
-</body>
+<!-- Navigation Bar -->
+<div class="navbar">
+  <a href="/index.html">Back home ?</a>
+</div>
 
-                                                                                                        
+<!-- The flexible grid (content) -->
+<div class="row">
+  <div class="side">
+ 
+  </div>
+
+
+
+  
+  <div class="main">
+
+<div class="color green">
+  <h3>Meteor showers and Fireball archives.</h3>
+</div>
+
+  
+  <div class="box small">
+    <img src="/images/south_taurids_shower_2016.jpg" alt="Meteor showers and Fireballs">
+  </div>
+    
+  <br>
+
+ <div class="box small">
+    <img src="/images/perseids_shower_2016.jpg" alt="Meteor showers and Fireballs">
+  </div>
+    
+  <br>
+
+ <div class="box small">
+    <img src="/images/south_taurids_2015.jpg" alt="Meteor showers and Fireballs">
+  </div>
+    
+  <br>
+
+
+ <div class="box small">
+    <img src="/images/perseids_2015_results.jpg" alt="Meteor showers and Fireballs">
+  </div>
+    
+  <br>
+
+
+ <div class="box small">
+    <img src="/images/final_perseid_2014_done.jpg" alt="Meteor showers and Fireballs">
+  </div>
+    
+  <br>
+
+ <div class="box small">
+    <img src="/images/final_lyrids_2012_web.jpg" alt="Meteor showers and Fireballs">
+  </div>
+    
+  <br>
+
+ <div class="box small">
+    <img src="/images/geminids_dec_15_2011.jpg" alt="Meteor showers and Fireballs">
+  </div>
+    
+  <br>
+
+
+ <div class="box small">
+    <img src="/images/meteors_ending_11_19_2011016_lenoids_fireball_web.jpg" alt="Meteor showers and Fireballs">
+  </div>
+    
+  <br>
+
+ <div class="box small">
+    <img src="/images/meteors_8_13_to_8_14_2011_web.jpg" alt="Meteor showers and Fireballs">
+  </div>
+    
+  <br>
+
+ <div class="box small">
+    <img src="/images/meteors_8_12_to_8_13_2011_web.jpg" alt="Meteor showers and Fireballs">
+  </div>
+    
+  <br>
+
+
+ <div class="box small">
+    <img src="/images/meteors_8_7_to_8_11_2011_web.jpg" alt="Meteor showers and Fireballs">
+  </div>
+    
+
+
+
+</div>
+</div>
+
+<!-- Footer -->
+<div class="footer">
+    <h5>Copyright ©-Tim Cline-Tim Cline Observatory
+    -2000 through 2100-Linux-open source supporter.</h5>
+</div>
+
+  
+
 </body>
 </html>
